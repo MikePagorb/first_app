@@ -1,0 +1,8 @@
+node_modules/
+.vscode/
+<<<<<<< HEAD
+.firebase/
+package-lock.json
+=======
+.firebase/
+>>>>>>> 21c286bc20d7f44ea990eea8c7e9179de883d15a
