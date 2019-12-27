@@ -10,8 +10,8 @@ server.listen(port, hostname, () => {
  console.log(`Server running at http://${hostname}:${port}/`)
 })*/
 
-const hostname = '127.0.0.1'
-const port = 3000
+const hostname = '127.0.0.1';
+const port = 3000;
 const http = require('http');
 const fs = require('fs');
 //const hostname = '127.0.0.1'
@@ -31,5 +31,5 @@ const server = http.createServer((req, res) => {
     //res.end('Hi there!\n')
 });
 server.listen(port, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}/`)
+    console.log(`Server is running at http://${hostname}:${port}/`);
 });
