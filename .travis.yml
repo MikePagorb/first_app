@@ -1,9 +1,9 @@
 language: node_js
 node_js:
-  - node
+    - node
 notifications:
-  email: false
+    email: false
 deploy:
-  provider: heroku
-  api_key: $key
-  app: pacific-escarpment-98371
+    provider: heroku
+    api_key: $key1
+    app: pacific-escarpment-98371
